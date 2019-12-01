@@ -92,6 +92,7 @@ SecretSanta.prototype.generate = function () {
     while ( Object.keys( candidatePairings ).length > 0 ) {
 
         var name = nextGifter;
+        console.log(`name: ${name}`);
 
         if ( candidatePairings[ name ].length === 0 )
             throw new Error('We haven\'t been able to find a match for ' + name + '! Press "Generate" to try again and, if it still doesn\'t work, try removing some exclusions from your rules. Sorry for the inconvenience!');
@@ -103,6 +104,7 @@ SecretSanta.prototype.generate = function () {
             candidatePairings[ name ] = _.without( candidatePairings[ name ], pairing );
         } );
 
+        console.log(`name: ${name}, pairing: ${pairing}`);
         pairings[ name ] = pairing;
         nextGifter = pairing;
     }
