@@ -1,6 +1,8 @@
 # Secret Santa
 
-Check it live on [e-gy.github.io/secretsanta/](http://arcanis.github.io/secretsanta/).
+Check it live on [e-gy.github.io/secretsanta/](https://e-gy.github.io/secretsanta/).
+
+Everyone-in-a-loop version of the original by [@arcanis](https://github.com/arcanis) (original version available at [arcanis/secretsanta](https://github.com/arcanis/secretsanta))
 
 ## License (MIT)
 
