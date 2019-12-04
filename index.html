@@ -281,9 +281,6 @@
               var pairingPath = window.location.pathname.replace( /[^/]+$/, '' ) + 'pairing.html';
               var pairingQueryString = '?name=' + encodeURIComponent( prettyName ) + '&key=' + encodeURIComponent( key ) + '&pairing=' + encodeURIComponent( encryptedPairing );
 
-              if ( isAmazonEnabled() )
-                  pairingQueryString += '&extra=1';
-
               tdName.innerText = name;
 
               link.addEventListener( 'click', protect );
