@@ -1,15 +1,7 @@
 # Secret Santa
 
-Check it live on [e-gy.github.io/secretsanta/](https://e-gy.github.io/secretsanta/).
+Check it live on [ethack.github.io/secretsanta/](https://ethack.github.io/secretsanta/)
 
-Everyone-in-a-loop version of the original by [@arcanis](https://github.com/arcanis) (original version available at [arcanis/secretsanta](https://github.com/arcanis/secretsanta))
+No signup, no email. Just a straightforward open-source tool to help you generate your secret santa pairings. One static page, and that's it.
 
-## License (MIT)
-
-> **Copyright © 2015 Maël Nison**
->
-> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
->
-> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
->
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+In the most common case (no exclusion rules, pair each guest with another at random), enter the name of your guests one line at a time. Once done, press "generate" and you're all set: send the generated links to your guests (by mail, chat, whatever floats your boat) and their pairing will be revealed to them (and only them) once they open the link.
